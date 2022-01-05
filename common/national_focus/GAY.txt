@@ -1,0 +1,20 @@
+focus_tree = {
+    id = GAY_focus_tree
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            #Unused Countries
+            OR = {
+                tag = GAY
+                tag = COL
+                tag = VEN
+                tag = GYA
+                tag = SUR
+            }
+        }
+    }
+
+    default = no
+}
